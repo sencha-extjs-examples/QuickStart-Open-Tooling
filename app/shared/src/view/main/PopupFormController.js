@@ -5,16 +5,17 @@ Ext.define('QuickStart.view.main.PopupFormController', {
     cancelUpdate: function () {
         var view = this.getView(),
             record = view.getRecord();
-
-        view.destroy();
         record.reject();
+        view.destroy();
+
     },
 
     submitUpdate: function(me) {
         var view = this.getView(),
             record = view.getRecord();
 
-        view.destroy();
         record.commit();
+        view.destroy();
+
     }
 });
