@@ -28,12 +28,7 @@ Ext.define('QuickStart.view.main.MainViewModel', {
 		desktopmenu: {
 			"type": "tree",
 			"root": {
-				"expanded": true,
-				"children": [
-					{ "text": "Personnel", "iconCls": "x-fa fa-table", "xtype": "personnelview","leaf": true },
-					//add new items on the next line (from sencha-node generate viewpackage)
-
-				]
+				"expanded": true
 			}
 		}
 	}

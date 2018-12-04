@@ -18,11 +18,7 @@ Ext.define('QuickStart.view.main.MenuView', {
 				handler: 'onMenuClick'
 			},
 			items: [
-				{ xtype: 'container', html: '&nbsp;', height: 20,},
-				{ text: 'Personnel', tag: 'personnelview'},
-//add new items on the next line (from sencha. generate viewpackage)
-
-				{ text: 'Profile', tag: 'profileview'}
+				{ xtype: 'container', html: '&nbsp;', height: 20,}
 			]
 		}
 	]

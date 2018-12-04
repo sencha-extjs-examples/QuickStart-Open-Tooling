@@ -3,7 +3,7 @@ Ext.define('QuickStart.view.main.MainViewController', {
 	alias: 'controller.mainviewcontroller',
 
 	init: function (view) {
-		this.redirectTo( 'personnelview', true );
+		//this.redirectTo( 'personnelview', true );
 	},
 
 	onMenuClick: function(button) {

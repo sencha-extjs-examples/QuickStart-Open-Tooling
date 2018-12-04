@@ -10,7 +10,6 @@ Ext.define('QuickStart.Application', {
 		'Ext.data.TreeStore',
 		'Ext.layout.Center'
 	],
-	defaultToken: 'personnelview',
 
 	launch: function () {
 		Ext.getBody().removeCls('launching');

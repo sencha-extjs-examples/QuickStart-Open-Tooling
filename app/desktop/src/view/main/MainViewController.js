@@ -53,14 +53,7 @@ Ext.define('QuickStart.view.main.MainViewController', {
 		else {
 			button.setIconCls('x-fa fa-arrow-right');
 		}
-	},
-
-	onBottomViewlogout: function () {
-		localStorage.setItem("LoggedIn", false);
-		this.getView().destroy();
-		Ext.Viewport.add([{ xtype: 'loginview'}]);
-	},
-
+	}
 
 //	onActionsViewLogoutTap: function( ) {
 //		var vm = this.getViewModel();

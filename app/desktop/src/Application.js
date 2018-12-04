@@ -2,8 +2,7 @@ Ext.define('QuickStart.Application', {
 	extend: 'Ext.app.Application',
 	name: 'QuickStart',
 	requires: ['QuickStart.*'],
-//	defaultToken: 'personnelview',
-
+	
 	launch: function () {
 		Ext.ariaWarn = Ext.emptyFn
 		Ext.getBody().removeCls('launching')
