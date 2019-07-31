@@ -1,7 +1,12 @@
 {
   "apps": [],
   "frameworks": {
-    "ext": "node_modules/@sencha/ext"
+        "ext": {
+            "path":"ext",
+            "version":"7.0.0"
+        }
+     
+
   },
   "build": {
     "dir": "${workspace.dir}/build"
